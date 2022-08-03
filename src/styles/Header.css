@@ -13,11 +13,12 @@
 
 .menu-btn {
   padding: 20px;
+  cursor: pointer;
 }
 
 .menu-btn .bar {
   width: 30px;
-  height: 2px;
+  height: 3px;
   margin: 0 0 5px;
   background-color: white;
 }
