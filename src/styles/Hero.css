@@ -1,0 +1,22 @@
+.hero {
+  background-size: cover;
+  background-position: center;
+  background: url("../images/mobile/image-hero.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+.main-hero {
+  height: 700px;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.main-hero h1 {
+  font-size: 46px;
+  line-height: 1.1;
+  padding: 20px;
+  color: #fff;
+  border: 2px solid #fff;
+}
