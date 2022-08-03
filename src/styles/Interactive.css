@@ -1,0 +1,17 @@
+.interactive {
+  padding: 55px 18px;
+  text-align: center;
+}
+
+.int-image img {
+  width: 100%;
+}
+
+.int-text-container {
+  padding: 0 35px;
+}
+
+.int-text-container h2 {
+  padding: 30px 0 20px;
+  line-height: 1.3;
+}
