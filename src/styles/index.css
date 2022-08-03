@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-size: 15px;
    font-family:"Alata", sans-serif;
+   color: var(--veryDarkGray);
 }
 
 li {
@@ -26,3 +27,5 @@ li {
   color: white;
   list-style: none;
 }
+
+
