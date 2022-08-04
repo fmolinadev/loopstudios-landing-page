@@ -1,0 +1,18 @@
+.card article {
+  position: relative;
+}
+
+.card img {
+  width: 95vw;
+  height: 180px;
+}
+
+.card h4 {
+  position: absolute;
+  color: white;
+  padding: 0 0 50px 20px;
+  margin-top: -78px;
+  font-size: 22px;
+  width: 150px;
+  line-height: 1.3;
+}
