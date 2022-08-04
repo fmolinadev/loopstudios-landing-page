@@ -1,0 +1,38 @@
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer img {
+  margin-bottom: 20px;
+}
+
+.links {
+  margin-bottom: 30px;
+}
+
+.links li {
+  margin-bottom: 20px;
+}
+
+.social-media ul li {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.social-media li {
+  margin-bottom: 0;
+  margin-right: 18px;
+  font-size: 24px;
+}
+
+.copyright {
+  font-family: "Alata", sans-serif;
+  font-size: 15px;
+  padding-top: 20px;
+  color: var(--dark-gray);
+}
