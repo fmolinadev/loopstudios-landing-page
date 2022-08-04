@@ -12,7 +12,7 @@ const OurCreations = () => {
         <h2>Our Creations</h2>
         <div>
           {data.map((oneCard) => {
-            console.log(oneCard);
+            // console.log(oneCard);
             return (
               <Card
                 key={oneCard.id}
