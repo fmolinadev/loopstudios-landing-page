@@ -21,7 +21,7 @@ const dataMobile = [
   {
     id: 3,
     cover: soccer,
-    title: "Soccer Team",
+    title: "Soccer Team VR",
   },
   {
     id: 4,
