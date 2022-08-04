@@ -3,7 +3,7 @@
 }
 
 .card img {
-  width: 95vw;
+  max-width: 100%;
   height: 180px;
 }
 
