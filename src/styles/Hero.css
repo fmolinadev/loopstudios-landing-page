@@ -20,3 +20,23 @@
   color: #fff;
   border: 2px solid #fff;
 }
+
+@media (min-width: 1024px) {
+  .hero {
+    background: brightness(70%) url("../images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+  }
+
+  .main-hero {
+    width: 700px;
+    padding-left: 80px;
+  }
+
+  .main-hero h1 {
+    font-size: 68px;
+    margin-top: 10px;
+  }
+}
