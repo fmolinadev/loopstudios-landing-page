@@ -32,9 +32,9 @@ const Footer = () => {
               <FaInstagram />
             </li>
           </ul>
-        </div>
-        <div className="copyright">
-          &copy; Francisco Molina | Frontendmentor.io.
+          <div className="copyright">
+            &copy; Francisco Molina | Frontendmentor.io.
+          </div>
         </div>
       </footer>
     </>

@@ -36,3 +36,33 @@
   padding-top: 20px;
   color: var(--dark-gray);
 }
+
+@media (min-width: 768px) {
+  .footer {
+    text-align: initial;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer ul li {
+    margin: 0 20px 0 0;
+  }
+  .footer ul {
+    display: flex;
+  }
+
+  .links li {
+    margin: 0 20px 0 0;
+    font-size: 18px;
+  }
+
+  .social-media ul li {
+    display: flex;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer {
+    padding: 50px 80px;
+  }
+}
