@@ -22,11 +22,10 @@
   }
 
   .header-creations {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     max-width: 1000px;
     margin: auto;
-    justify-content: space-between;
     align-items: center;
     padding: 25px 0;
   }
@@ -40,6 +39,7 @@
     text-transform: uppercase;
     cursor: pointer;
     transition: background-color 0.2s;
+    margin-left: 282px;
   }
 
   .header-creations .container-btn .btn:hover {
@@ -55,19 +55,5 @@
 
   .creations-desktop .header-creations {
     max-width: 1100px;
-  }
-  .creations-mobile .header-creations .container-btn {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
-    width: 500px;
-    display: flex;
-    text-align: center;
-    margin: auto;
-    left: 50%;
-  }
-
-  .btn {
-    padding: 10px 50px;
   }
 }
