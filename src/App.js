@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Interactive from "./components/Interactive";
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Interactive />
       <OurCreations />
+      <Footer />
     </>
   );
 }
