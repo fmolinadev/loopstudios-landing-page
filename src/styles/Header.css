@@ -1,71 +1,112 @@
 .header {
-  display: flex;
   position: absolute;
-  width: 100%;
-  justify-content: space-between;
+  display: flex;
   align-items: center;
-  padding: 10px 22px;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
 }
 
-.navbar ul {
+.header nav {
   display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  min-height: 100vh;
 }
 
-.menu-btn {
+.header nav.open {
+  display: block;
+}
+
+.header nav .nav-logo {
+  padding: 20px;
+}
+
+.header nav ul {
+  padding-top: 100px;
+  padding-left: 20px;
+}
+
+.header nav ul li {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.header .menu-btn {
   padding: 20px;
   cursor: pointer;
+  transition: 0.4s;
 }
 
-.menu-btn .bar {
-  width: 30px;
+.header .menu-btn.rotate .bar1 {
+  transform: rotate(40deg);
+}
+
+.header .menu-btn.rotate .bar2 {
+  opacity: 0;
+}
+
+.header .menu-btn.rotate .bar3 {
+  transform: rotate(-40deg);
+  margin-top: -16px;
+}
+
+.header .menu-btn .bar {
+  width: 35px;
   height: 3px;
+  background-color: #fff;
   margin: 0 0 5px;
-  background-color: white;
 }
 
 @media (min-width: 1024px) {
   .header {
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding: 20px 30px;
-    top: 25px;
   }
 
-  .menu-btn {
+  .header .menu-btn {
     display: none;
   }
 
-  .navbar {
+  .header nav {
     display: block;
     background-color: transparent;
   }
 
-  .navbar .open {
-    display: block;
+  .header nav .nav-logo {
+    display: none;
   }
 
-  .navbar ul {
+  .header nav ul {
     position: absolute;
     display: flex;
     justify-content: space-between;
     top: 20px;
-    right: 30px;
+    right: 20px;
     padding: 0;
   }
 
-  .navbar ul li {
+  .header nav ul li {
     margin-bottom: 0;
     margin-right: 20px;
     text-transform: capitalize;
     font-size: 18px;
   }
-}
 
-@media (min-width: 1280px) {
-  .header {
-    padding-left: 80px;
-  }
+  @media (min-width: 1280px) {
+    .header {
+      padding-left: 80px;
+    }
 
-  .navbar ul {
-    right: 110px;
+    .header nav ul {
+      right: 80px;
+    }
   }
 }
